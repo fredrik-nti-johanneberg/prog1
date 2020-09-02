@@ -8,4 +8,4 @@ TODO: Sammanfattning av veckans undervisning
 
 Förslag på övningar:
 
-  1. Skriv ett program som efterfrågar två heltal (integer-värden). Använd t ex `num1 = gets.to_i` och `num2 = gets.to_i` för att mata in talen i variablerna `num1` respektive `num2`. Använd därefter en if-sats för att skriva ut vilket tal som är störst.
+  1. Skriv ett program som efterfrågar två heltal (integer-värden). Använd t ex `num1 = gets.to_i` och `num2 = gets.to_i` för att mata in talen i variablerna `num1` respektive `num2`. Använd därefter en if-sats för att skriva ut vilket tal som är störst. Kalla ditt program för greatest_of_two.rb
