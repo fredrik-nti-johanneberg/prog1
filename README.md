@@ -8,21 +8,18 @@ Här kommer jag samla undervisningsmaterial och övningar för kursen. Materiale
 TODO: Sammanfattning av veckans undervisning
 &nbsp;  
 
-Förslag på övningar:
-
-  1. Skriv ett program som efterfrågar två heltal (integer-värden). Använd t ex `num1 = gets.to_i` och `num2 = gets.to_i` för att mata in talen i variablerna `num1` respektive `num2`. Använd därefter en if-sats för att skriva ut vilket tal som är störst. Kalla ditt program för greatest_of_two.rb
-&nbsp;  
-
 # Vecka 37
 
 Övningar på input, output, variabler, datatyper, if-satser:
 
-  1. Öppna terminalen (cmd) och starta sedan programmet irb (Interactive Ruby Shell) som tillåter oss att testa små kodsnuttar. Titta i cheat-sheet på jämförelse-operatorer. Se även till att du har koll på datatyperna string och integer (text och heltal). Testa några olika jämförelser, t ex: `3 > 4`, `5 == 5`, `"1337" == 1337`, `"hello" == "Hello"`. Vad får du för resultat? Varför måste vi ha kolla på datatyper när vi programmerar?
+  1. Öppna terminalen (cmd) och starta sedan programmet irb (Interactive Ruby Shell) som tillåter oss att testa små kodsnuttar. Titta i cheat-sheet på jämförelse-operatorer. Se även till att du har koll på datatyperna string och integer (text och heltal). Testa några olika jämförelser, t ex: `3 > 4`, `5 == 5`, `"1337" == 1337`, `"hello" == "Hello"`, `"Hello" == "Hello"`. Vad får du för resultat? Varför måste vi ha kolla på datatyper när vi programmerar?
   
-  2. Öppna VS Code och lägg till en ny Ruby-fil som heter `firstlastname.rb`. Se till att filen hamnar i rätt workspace (dvs i din Ruby-mapp i din hemkatalog). Studera koden för programmet `name.rb` som vi skrev tidigare. Utöka nu koden så att den efterfrågar förnamn och sedan efternamn från användaren. Tänk på att lagra förnamn och efternamn i två olika variabler. Kalla variablerna `firstname` respektive `efternamn`. Programmet ska till sist skriva ut en hälsningsfras i stil med `Hej på dig Gunnar Svensson`. Titta i cheat-sheet på sträng-interpolering om du är osäker på hur du ska få variablerna på rätt plats i hälsningsfrasen.
+  2. Öppna VS Code och lägg till en ny Ruby-fil som heter `firstlastname.rb`. Se till att filen hamnar i rätt workspace (dvs i din Ruby-mapp i din hemkatalog). Studera koden för programmet `name.rb` som vi skrev tidigare. Utöka nu koden så att den efterfrågar förnamn och sedan efternamn från användaren. Tänk på att lagra förnamn och efternamn i två olika variabler. Kalla variablerna `firstname` respektive `lastname`. Programmet ska till sist skriva ut en hälsningsfras i stil med `Hej på dig Gunnar Svensson!`. Titta i cheat-sheet på sträng-interpolering om du är osäker på hur du ska få variablerna på rätt plats i hälsningsfrasen.
   
-  3. 
+  3. Skapa ett program som heter `sum.rb`. I koden ska du tilldela integer-värdet 3 till variabeln `num1` och integer-värdet 4 till variabeln `num2`. Vilken output genererar programmet vid körning om du lägger till följande kodrad? : `Summan av #{num1} och #{num2} är #{num1 + num2}`
 
+  4. Skriv ett program `greatest_of_two.rb` som efterfrågar två heltal (integer-värden). Använd t ex `num1 = gets.to_i` och `num2 = gets.to_i` för att mata in talen i variablerna `num1` respektive `num2`. Använd därefter en if-sats för att skriva ut vilket tal som är störst.
+&nbsp;  
 
 
 
