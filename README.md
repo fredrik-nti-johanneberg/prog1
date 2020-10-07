@@ -25,4 +25,21 @@ TODO: Sammanfattning av veckans undervisning
 &nbsp;  
 
 
+# Vecka 41
+
+Extra uppgifter för er som inte har något att göra.
+
+  1. Skriv om kalkylatorn från uppgift 0 så att den hanterar tre operander och två operatorer.
+
+  2. Skriv ett program som simulerar tärningskast med en sex-sidig tärning. Programmet ska efterfråga
+antal kast från användaren och därefter genomföra så många kast som användaren angav.
+Programmet ska endast skriva ut hur många gånger som vardera sida av tärningen visades. Använd följande syntax för att generera slumptal i intervallet 1-6:
+rand(6) + 1
+
+  3. Implementera kortspelet 21! Målet med spelet är att nå summan 21 genom att summera slumpvisa
+kort från en kortlek. Spelet fortsätter så länge summan av dina kort är lägre än 21. Om du når
+summan 21 har du vunnit och spelet avslutas. Om summan blir högre än 21 har du förlorat och
+spelet avslutas. Om du drar ett ess får detta räknas som 1 eller 14 (användaren uppmanas då välja
+värde).
+
 
